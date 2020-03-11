@@ -1,1 +1,1 @@
-web: gunicorn Test_heroku.wsgi --log-file -
+web:gunicorn Configs.wsgi --log-file -
