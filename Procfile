@@ -1,1 +1,1 @@
-web: gunicorn имя_джанго_проекта.wsgi --log-file -
+web: gunicorn Auto.wsgi --log-file -
