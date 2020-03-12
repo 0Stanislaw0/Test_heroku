@@ -70,9 +70,6 @@ msgstr "Renter"
 msgid "Аренда машин"
 msgstr "Rent cars"
 
-#: cars/models.py:39
-msgid "Мои машины"
-msgstr "My cars"
 
 #: cars/views.py:119
 msgid "Дальнейшние инструкции отправлены вам на почту!"
