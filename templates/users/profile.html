@@ -9,7 +9,7 @@
     </div>
           <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
     <input name="next" type="hidden" value="{{ redirect_to }}" />
-    <select name="language">
+   <select class="form-control" name="language">
         {% get_current_language as LANGUAGE_CODE %}
         {% get_available_languages as LANGUAGES %}
         {% get_language_info_list for LANGUAGES as languages %}
@@ -19,7 +19,7 @@
             </option>
         {% endfor %}
     </select>
-    <input type="submit" value="{% trans 'Change' %}" />
+    <input class="btn btn-primary" type="submit" value="{% trans 'Change' %}" />
 </form>
     <h3 class="mt-4">{% trans "Изменение данных" %}</h3>
     <form method="POST" enctype="multipart/form-data">
