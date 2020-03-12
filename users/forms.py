@@ -21,9 +21,9 @@ class CustomUserChangeForm(UserChangeForm):
 
 class UserOurRegistration(UserCreationForm):
     email = forms.EmailField(label=_('Email'), widget=forms.TextInput(attrs={"class": "myfield"}))
-    password1 = forms.CharField(label=_('Password'), min_length=8, widget=forms.TextInput(attrs={"class": "myfield"}))
+    password1 = forms.CharField(label=_('Password'), min_length=8, widget=forms.PasswordInput(attrs={"class": "myfield"}))
     password2 = forms.CharField(label=_('Confirm the password '), min_length=8,
-                                widget=forms.TextInput(attrs={"class": "myfield"}))
+                                widget=forms.PasswordInput(attrs={"class": "myfield"}))
     phone_number = forms.CharField(label=_('Phone number'), min_length=8, max_length=15,
                                    widget=forms.TextInput(attrs={"class": "myfield"}))
 
