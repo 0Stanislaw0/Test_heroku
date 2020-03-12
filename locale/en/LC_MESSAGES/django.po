@@ -48,45 +48,33 @@ msgstr "Current"
 
 #: cars/models.py:24
 msgid "Автомобили"
-msgstr ""
+msgstr "Cars"
 
 #: cars/models.py:25
 msgid "Автомобиль"
-msgstr ""
+msgstr "Car"
 
 #: cars/models.py:30
-#, fuzzy
-#| msgid "Дата аренды"
 msgid "дата аренды"
 msgstr "Date Rent"
 
 #: cars/models.py:31
-#, fuzzy
-#| msgid "Дата возвращения"
 msgid "дата возвращения"
 msgstr "Date Back"
 
 #: cars/models.py:32
-#, fuzzy
-#| msgid "Аренда автомобиля"
 msgid "Арендатор"
-msgstr "Rent Car"
+msgstr "Renter"
 
 #: cars/models.py:38
-#, fuzzy
-#| msgid "Аренда автомобиля"
 msgid "Аренда машин"
-msgstr "Rent Car"
+msgstr "Rent cars"
 
 #: cars/models.py:39
-#, fuzzy
-#| msgid "Мои машины"
-msgid "Аренда машины"
+msgid "Мои машины"
 msgstr "My cars"
 
 #: cars/views.py:119
-#, fuzzy
-#| msgid "Дальнейшие инструкции отправлены Вам на почту"
 msgid "Дальнейшние инструкции отправлены вам на почту!"
 msgstr "Further instructions have been mailed to you"
 
@@ -124,7 +112,7 @@ msgstr "Up"
 
 #: templates/cars/cars_add.html:6
 msgid "Добавление машины"
-msgstr "Data change"
+msgstr "Add car"
 
 #: templates/cars/cars_models.html:16
 msgid "Подробнее"
@@ -242,8 +230,6 @@ msgid "Мои машины"
 msgstr "My cars"
 
 #: templates/users/profile.html:62
-#, fuzzy
-#| msgid "Дата аренды"
 msgid "Начало аренды"
 msgstr "Date Rent"
 
