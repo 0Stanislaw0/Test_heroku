@@ -5,9 +5,12 @@
 {% for message in messages %}
   {{ message }}
 {% endfor %}
+ <div class="form-section">
     <h1>{%trans "Rent car"%}</h1>
-    <form method="POST" class="device-form">{% csrf_token %}
-        {{ form.as_p }}
+    <form method="POST" >
+        {% csrf_token %}
+        {{ form|crispy }}
         <button type="submit" class="save btn btn-default">{%trans "Rent car"%}</button>
     </form>
+ </div>
 {% endblock main_section %}
