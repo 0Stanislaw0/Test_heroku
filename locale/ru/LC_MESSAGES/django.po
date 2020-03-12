@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-30 18:07+0000\n"
+"POT-Creation-Date: 2020-03-12 18:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,67 +28,58 @@ msgstr "Время окончания должно быть после врем�
 msgid "There is an overlap with another reserv: "
 msgstr "Существует совпадение с другим резервом:"
 
-#: cars/models.py:9 templates/cars/cars_detail.html:8
-#: templates/cars/cars_models.html:8
+#: cars/models.py:10 templates/cars/cars_detail.html:10
+#: templates/cars/cars_models.html:10
 msgid "Русское название"
 msgstr "Русское название"
 
-#: cars/models.py:10 templates/cars/cars_detail.html:10
-#: templates/cars/cars_models.html:10
+#: cars/models.py:11 templates/cars/cars_detail.html:14
+#: templates/cars/cars_models.html:14
 msgid "Английское название"
 msgstr "Английское название"
 
-#: cars/models.py:11 templates/cars/cars_detail.html:11
-#: templates/cars/cars_models.html:11 templates/users/profile.html:48
+#: cars/models.py:12 templates/cars/cars_detail.html:17
+#: templates/cars/cars_models.html:17 templates/users/profile.html:48
 msgid "Год создания"
 msgstr "Год создания"
 
-#: cars/models.py:14 templates/cars/cars_detail.html:13
-#: templates/cars/cars_models.html:13
+#: cars/models.py:15 templates/cars/cars_detail.html:19
+#: templates/cars/cars_models.html:19
 msgid "Владелец"
 msgstr "Владелец"
 
-#: cars/models.py:24
+#: cars/models.py:28
 msgid "Автомобили"
 msgstr ""
 
-#: cars/models.py:25
+#: cars/models.py:29
 msgid "Автомобиль"
 msgstr ""
 
-#: cars/models.py:30
+#: cars/models.py:34
 #, fuzzy
 #| msgid "Дата аренды"
 msgid "дата аренды"
 msgstr "Дата аренды"
 
-#: cars/models.py:31
-#, fuzzy
-#| msgid "Дата возвращения"
+#: cars/models.py:35
 msgid "дата возвращения"
 msgstr "Дата возвращения"
 
-#: cars/models.py:32
-#, fuzzy
-#| msgid "Аренда автомобиля"
+#: cars/models.py:36
 msgid "Арендатор"
-msgstr "Аренда автомобиля"
+msgstr ""
 
-#: cars/models.py:38
-#, fuzzy
-#| msgid "Аренда автомобиля"
+#: cars/models.py:42
 msgid "Аренда машин"
-msgstr "Аренда автомобиля"
+msgstr "Аренда машин"
 
-#: cars/models.py:39
-#, fuzzy
-#| msgid "Добавить статью"
+#: cars/models.py:43
 msgid "Аренда машины"
 msgstr "Добавить машину"
 
-#: cars/views.py:119
-#, fuzzy
-#| msgid "Дальнейшие инструкции отправлены Вам на почту"
+#: cars/views.py:120
+
 msgid "Дальнейшние инструкции отправлены вам на почту!"
 msgstr "Дальнейшие инструкции отправлены Вам на почту"
 
@@ -128,33 +119,33 @@ msgstr "Наверх"
 msgid "Добавление машины"
 msgstr "Добавление машины"
 
-#: templates/cars/cars_models.html:16
+#: templates/cars/cars_models.html:22
 msgid "Подробнее"
 msgstr ""
 
-#: templates/cars/cars_models.html:17
+#: templates/cars/cars_models.html:23
 msgid "Забронировать"
 msgstr "Забронировать"
 
-#: templates/cars/cars_models.html:25
+#: templates/cars/cars_models.html:31
 msgid "Начало"
 msgstr ""
 
-#: templates/cars/cars_models.html:26
+#: templates/cars/cars_models.html:32
 msgid "Пред"
 msgstr ""
 
-#: templates/cars/cars_models.html:38
+#: templates/cars/cars_models.html:44
 msgid "Cлед"
 msgstr ""
 
-#: templates/cars/cars_models.html:39
+#: templates/cars/cars_models.html:45
 msgid "Посл"
 msgstr ""
 
-#: templates/cars/reservation.html:8 templates/cars/reservation.html:11
+#: templates/cars/reservation.html:9 templates/cars/reservation.html:13
 msgid "Rent car"
-msgstr ""
+msgstr "Бронирование автомобиля"
 
 #: templates/cars/reservation_detail.html:10
 #: templates/cars/reservation_detail.html:14 templates/users/profile.html:41
@@ -163,10 +154,8 @@ msgid "Машина"
 msgstr "Машина"
 
 #: templates/cars/reservation_detail.html:18
-#, fuzzy
-#| msgid "Арендовать машину"
 msgid "Вы забронивали машину с "
-msgstr "Арендовать машину"
+msgstr "Вы забронивали машину с "
 
 #: templates/cars/reservation_detail.html:18
 msgid " по "
@@ -205,7 +194,7 @@ msgstr "Запросить новый пароль"
 #, fuzzy
 #| msgid "Вы успешно сбросили пароль"
 msgid "Вы успешно обновили пароль"
-msgstr "Вы успешно сбросили пароль"
+msgstr "Вы успешно обновили пароль"
 
 #: templates/users/password_reset_complete.html:6
 msgid "Ваш пароль заменен на новый!"
@@ -244,20 +233,17 @@ msgid "Желаетe сменить пароль?"
 msgstr "Желаетe сменить пароль?"
 
 #: templates/users/profile.html:36
-#, fuzzy
-#| msgid "Добавить статью"
+
 msgid "Мои машины"
 msgstr "Добавить машину"
 
 #: templates/users/profile.html:62
-#, fuzzy
-#| msgid "Дата аренды"
+
 msgid "Начало аренды"
 msgstr "Дата аренды"
 
 #: templates/users/profile.html:63
-#, fuzzy
-#| msgid "Дата аренды"
+
 msgid "Конец аренды"
 msgstr "Дата аренды"
 
@@ -324,9 +310,6 @@ msgstr "Местонахождение"
 
 #~ msgid "Name"
 #~ msgstr "Имя"
-
-#~ msgid "Запросить новый парол"
-#~ msgstr "Запросить новый парол"
 
 #~ msgid "phone number"
 #~ msgstr "Номер телефона"
